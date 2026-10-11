@@ -1,0 +1,11 @@
+# Replace OWNER with the GitHub account or organisation that hosts opademo.
+services:
+  github:
+    url: https://raw.githubusercontent.com/OWNER/opademo/main/bundle
+bundles:
+  payment:
+    service: github
+    resource: payment-bundle.tar.gz
+    polling:
+      min_delay_seconds: 60
+      max_delay_seconds: 120
