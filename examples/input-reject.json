@@ -1,0 +1,10 @@
+{
+  "profile": "BUSINESS-001",
+  "role": "payment_initiator",
+  "action": "initiate_payment",
+  "account": {
+    "id": "BUS-12345",
+    "status": "inactive"
+  },
+  "amount": 12500
+}
