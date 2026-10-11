@@ -1,0 +1,8 @@
+{
+  "revision": "v1.0.0",
+  "roots": [
+    "payment",
+    "approval_limits",
+    "eligible_profiles"
+  ]
+}

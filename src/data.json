@@ -1,0 +1,9 @@
+{
+  "approval_limits": {
+    "payment_initiator": 15000
+  },
+  "eligible_profiles": [
+    "BUSINESS-001",
+    "BUSINESS-002"
+  ]
+}
